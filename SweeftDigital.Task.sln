@@ -7,13 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigitalTask", "Sweeft
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.TaskSolution", "SweeftDigitalTask.Algorithm\SweeftDigital.TaskSolution.csproj", "{62F335F3-17FC-481C-B48F-809121D97B70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{F3DC81B1-99E0-4061-8B21-B0301C0EA7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigitalTask.Test", "Test\SweeftDigitalTask.Test.csproj", "{F3DC81B1-99E0-4061-8B21-B0301C0EA7FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.Domain", "SweeftDigital.Domain\SweeftDigital.Domain.csproj", "{18C811B5-EC31-4256-B7C4-F2E380E40FDC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.DbConection", "SweeftDigital.DbConection\SweeftDigital.DbConection.csproj", "{0A5B8E00-AE01-4396-B78E-885063AD807A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.Repository", "SweeftDigital.Repository\SweeftDigital.Repository.csproj", "{13AE0B12-BDF3-486C-A86E-00A6C8E49B47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbContext", "DbContext", "{0D9C4CB1-C867-49A5-ADEB-6176040214DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A7D4379C-F69B-4053-A4AE-06E831F19145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F10BD08D-2751-4A0A-9A26-994B5C2B5C9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{4DB2854E-ED21-4332-BF87-115E176EB6C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XUnitTest", "XUnitTest", "{B324D160-A2D1-4E21-9DE1-FE11F3502100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +58,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8D1A61F-4AFC-49BE-8A22-1D3B115696A0} = {4DB2854E-ED21-4332-BF87-115E176EB6C2}
+		{62F335F3-17FC-481C-B48F-809121D97B70} = {F10BD08D-2751-4A0A-9A26-994B5C2B5C9B}
+		{F3DC81B1-99E0-4061-8B21-B0301C0EA7FE} = {B324D160-A2D1-4E21-9DE1-FE11F3502100}
+		{18C811B5-EC31-4256-B7C4-F2E380E40FDC} = {A7D4379C-F69B-4053-A4AE-06E831F19145}
+		{0A5B8E00-AE01-4396-B78E-885063AD807A} = {0D9C4CB1-C867-49A5-ADEB-6176040214DC}
+		{13AE0B12-BDF3-486C-A86E-00A6C8E49B47} = {F10BD08D-2751-4A0A-9A26-994B5C2B5C9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36D99B66-4BBA-4163-BD89-C3AC3A622418}
