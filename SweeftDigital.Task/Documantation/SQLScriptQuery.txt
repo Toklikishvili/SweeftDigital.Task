@@ -1,0 +1,5 @@
+SELECT  Teachers.FirstName, Teachers.LastName, Teachers.Gender, Teachers.Subject
+FROM Teachers
+JOIN PupilTeacher ON Teachers.TeacherId = PupilTeacher.TeachersTeacherId
+JOIN Pupils ON Pupils.PupilId = PupilTeacher.PupilsPupilId
+WHERE Pupils.FirstName = N'გიორგი';

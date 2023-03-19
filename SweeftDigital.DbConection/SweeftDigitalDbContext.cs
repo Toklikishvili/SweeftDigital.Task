@@ -1,0 +1,15 @@
+﻿using Microsoft.EntityFrameworkCore;
+using SweeftDigital.Domain;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("SweeftDigital.Repository")]
+[assembly: InternalsVisibleTo("SweeftDigitalTask")]
+[assembly: InternalsVisibleTo("Test")]
+
+namespace SweeftDigital.DbConection;
+internal class SweeftDigitalDbContext : DbContext
+{
+    public SweeftDigitalDbContext(DbContextOptions options) : base(options) { }
+    public DbSet<Teacher> Teachers { get; set; }
+    public DbSet<Pupil> Pupils { get; set; }
+}
