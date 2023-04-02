@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigitalTask", "Sweeft
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.TaskSolution", "SweeftDigitalTask.Algorithm\SweeftDigital.TaskSolution.csproj", "{62F335F3-17FC-481C-B48F-809121D97B70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigitalTask.Test", "Test\SweeftDigitalTask.Test.csproj", "{F3DC81B1-99E0-4061-8B21-B0301C0EA7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.XUnitTest", "XUnitTest\SweeftDigital.XUnitTest.csproj", "{F3DC81B1-99E0-4061-8B21-B0301C0EA7FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweeftDigital.Domain", "SweeftDigital.Domain\SweeftDigital.Domain.csproj", "{18C811B5-EC31-4256-B7C4-F2E380E40FDC}"
 EndProject

@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SweeftDigital.Domain;
-using SweeftDigital.Repository;
 using SweeftDigital.Repository.Interfaces;
 using SweeftDigitalTask.LocalStorage;
-using Test;
 
 namespace SweeftDigitalTask.Controllers
 {

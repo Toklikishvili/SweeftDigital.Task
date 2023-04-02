@@ -2,8 +2,8 @@
 using SweeftDigital.DbConection;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("SweeftDigitalTask")]
-namespace Test;
+[assembly: InternalsVisibleTo("SweeftDigital.XUnitTest")]
+namespace SweeftDigital.XUnitTest;
 internal static class MemoryDataBase
 {
     private static SweeftDigitalDbContext? _context;

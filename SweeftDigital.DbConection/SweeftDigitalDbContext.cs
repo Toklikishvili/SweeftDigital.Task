@@ -3,8 +3,8 @@ using SweeftDigital.Domain;
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("SweeftDigital.Repository")]
+[assembly: InternalsVisibleTo("SweeftDigital.XUnitTest")]
 [assembly: InternalsVisibleTo("SweeftDigitalTask")]
-[assembly: InternalsVisibleTo("Test")]
 
 namespace SweeftDigital.DbConection;
 internal class SweeftDigitalDbContext : DbContext

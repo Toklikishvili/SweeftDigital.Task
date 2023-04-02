@@ -17,7 +17,7 @@
     <ProjectReference Include="..\SweeftDigital.DbConection\SweeftDigital.DbConection.csproj" />
     <ProjectReference Include="..\SweeftDigital.Repository\SweeftDigital.Repository.csproj" />
     <ProjectReference Include="..\SweeftDigitalTask.Algorithm\SweeftDigital.TaskSolution.csproj" />
-    <ProjectReference Include="..\Test\Test.csproj" />
+    <ProjectReference Include="..\Test\SweeftDigital.XUnitTest.csproj" />
   </ItemGroup>
 
 </Project>

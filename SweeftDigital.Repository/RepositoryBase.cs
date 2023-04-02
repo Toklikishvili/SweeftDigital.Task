@@ -1,11 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SweeftDigital.DbConection;
+﻿using SweeftDigital.DbConection;
 using SweeftDigital.Repository.Interfaces;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Test")]
+[assembly: InternalsVisibleTo("SweeftDigital.XUnitTest")]
 [assembly: InternalsVisibleTo("SweeftDigitalTask")]
+
 namespace SweeftDigital.Repository;
 internal abstract class RepositoryBase<TDomain> : IRepositoryBase<TDomain> where TDomain : class
 {
